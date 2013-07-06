@@ -1,0 +1,3 @@
+permalink: /:categories/:year/:month/:day/:title.html
+exclude:
+- README.md
