@@ -5,7 +5,7 @@ title: Home
 
 <div class="jumbotron">
 
-    <img class="pull-right" src="img/beerandcodelogo.jpg" width="150px"
+    <img id="beerandcodelogo" class="pull-right" src="img/beerandcodelogo.jpg" width="150px"
     height="150px" />
 
     <h1>Socialize, write code, and drink good beer!</h1>
