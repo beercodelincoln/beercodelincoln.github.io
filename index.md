@@ -15,18 +15,21 @@ title: Home
 
 </div>
 
-<div>
-
-The next meetup is...
-
-</div>
-
 <div id="posts">
 
+    <ul>
     {% for post in site.posts %}
 
-        <!-- put post content here -->
+        <li>
+            <div class="post-header">
+                <p class="pull-right">posted: {{ post.date | date: "%m/%d/%y" }}</p>
+                <h1>{{ post.title }}</h1>
+            </div>
+
+            <p>{{ post.content }}</p>
+        </li>
 
     {% endfor %}
+    </ul>
 
 </div>

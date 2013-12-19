@@ -45,3 +45,32 @@ div.container header h2 {
     bottom: 0;
     max-width: 700px;
 }
+
+/* lists of posts */
+#posts {
+    font-size: 18px;
+}
+#posts h1 {
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 0px;
+}
+#posts div.post-header {
+    border-bottom: dotted 1px #999;
+}
+#posts div.post-header p {
+    color: #999;
+    font-size: 12px;
+}
+#posts ul {
+    margin: 0;
+    list-style: none;
+}
+#posts ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: solid 1px #999;
+}
+#posts ul li:first-child {
+    border-bottom: solid 5px #999;
+}
