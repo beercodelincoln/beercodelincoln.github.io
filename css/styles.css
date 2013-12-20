@@ -69,8 +69,8 @@ div.container header h2 {
 #posts ul li {
     margin-bottom: 20px;
     padding: 10px;
-    border-bottom: solid 1px #999;
+    border-left: solid 5px rgba(35,75,135,0.3);
 }
 #posts ul li:first-child {
-    border-bottom: solid 5px #999;
+    border-left: solid 5px rgba(35,75,135,1.0);
 }
